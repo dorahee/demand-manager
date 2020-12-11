@@ -4,12 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="demand-manager-dorahee", # Replace with your own username
-    version="0.0.1",
+    name="demand-manager", # Replace with your own username
+    version="0.0.2",
     author="Shan Dora He",
     author_email="dora.shan.he@gmail.com",
-    description="Demand manager is an optimisation package for scheduling loads of households,"
-                " including electric appliances, batteries and EV. ",
+    description="Demand manager optimally schedules loads (e.g. appliances, batteries and EVs) "
+                "of single or multiple households to minimise the peak demand, "
+                "energy usage cost (and network charge if any) and discomfort "
+                "using MiniZinc and solvers (e.g. COIN-BC, Gurobi and CPLEX). ",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/dorahee/demand-manager.git",

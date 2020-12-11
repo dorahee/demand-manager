@@ -1,0 +1,6 @@
+k_scheduling_horizon = "scheduling_horizon"
+k_scheduling_interval_duration = "scheduling_interval_duration"
+k_pricing_period_duration = "pricing_period_duration"
+k_num_scheduling_interval = "num_scheduling_interval"
+k_num_pricing_period = "num_pricing_period"
+k_num_scheduling_per_pricing = "num_scheduling_per_pricing"
